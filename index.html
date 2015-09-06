@@ -9,12 +9,14 @@
 	<body>
 		<div id="page-container">
 			<div id="dashboard">
+
 				<div id="profile-summary">
 					<div class="content">
 						<img class='avatar' src='img/alagoon.jpg' />
-						<p>Your Name Here</p>
+						<p>Bryan Schauerte</p>
 					</div>
 				</div>
+
 				<div id="tweet-content">
 
 					<!-- STEP 2: When the user clicks on the textarea, the textarea should double in size and the character count and Tweet buttons should be revealed. -->
@@ -35,6 +37,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div id="main">
 				<h2>Tweets</h2>
 				<div id="stream">
@@ -150,6 +153,7 @@
 									<li><span class="icon action-more"></span> More</li>
 								</ul>
 							</div>
+
 							<div class="stats">
 								<div class="retweets">
 									<p class="num-retweets">30</p>
@@ -174,9 +178,61 @@
 								<textarea class="tweet-compose" placeholder="Reply to @mybff"/></textarea>
 							</div>
 						</div>
+
+
+
+
+						<div class = "tweet" id= 'postable'>
+								<img class='avatar' src='img/alagoon.jpg' />
+									<div class="content">
+										<strong class="fullname">Bryan Schauerte</strong>
+							<span class="username">@DevMountain</span>
+
+							<p class="tweet-text" id="new-tweet-text"></p>
+							<div class="tweet-actions">
+					<ul>
+						<li><span class="icon action-reply"></span> Reply</li>
+						<li><span class="icon action-retweet"></span> Retweet</li>
+						<li><span class="icon action-favorite"></span> Favorite</li>
+						<li><span class="icon action-more"></span> More</li>
+					</ul>
+				</div>
+
+				<div class="stats">
+					<div class="retweets">
+						<p class="num-retweets">0</p>
+						<p>RETWEETS</p>
+					</div>
+					<div class="favorites">
+						<p class="num-favorites">0</p>
+						<p>FAVORITES</p>
+					</div>
+					<div class="users-interact">
+						<div>
+							<!-- <img src="img/vklimenko.jpg" />
+							<img src="img/funwatercat.jpg" /> -->
+						</div>
+					</div>
+					<div class="time">
+						8:04 PM - 4 Sep 15
+					</div>
+				</div>
+				<div class="reply">
+
+				</div>
+						</div>
+
+			  </div>
+
+
+
+
 					</div><!-- .tweet -->
 				</div><!-- #stream -->
 			</div><!-- #main -->
 		</div><!-- #page-container -->
+		<script src = "js/jquery-2.0.3.min.js"></script>
+		<script src = "scripts/animations.js"></script>
+
 	</body>
 </html>
